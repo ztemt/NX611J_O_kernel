@@ -1,0 +1,9 @@
+#
+# Near Field Communication (NFC) devices
+#
+
+menu "Near Field Communication (NFC) devices"
+	depends on NUBIA_NFC
+source "drivers/nubia/nfc/samsung/Kconfig"
+
+endmenu

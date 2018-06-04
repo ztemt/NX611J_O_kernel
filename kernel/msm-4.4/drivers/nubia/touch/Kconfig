@@ -1,0 +1,28 @@
+
+menu "nubia driver touchscreens"
+
+config NUBIA_TOUCHSCREEN_NT36XXX
+        bool "config nubia touchscreens nt36xxx"
+        default n
+        help
+          Say Y here if you have a nubia touchscreen nt36xxx connected
+          to your system.
+	  If unsure, say N.
+
+if NUBIA_TOUCHSCREEN_NT36XXX
+source "drivers/nubia/touch/nt36xxx/Kconfig"
+endif
+
+config NUBIA_TOUCHSCREEN_HXCHIPSET
+        bool "config nubia touchscreens hxchipset"
+        default n
+        help
+          Say Y here if you have a nubia touchscreen hxchipset connected
+          to your system.
+	  If unsure, say N.
+
+if NUBIA_TOUCHSCREEN_HXCHIPSET
+source "drivers/nubia/touch/hxchipset/Kconfig"
+endif
+
+endmenu

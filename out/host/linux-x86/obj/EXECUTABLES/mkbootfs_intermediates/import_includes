@@ -1,0 +1,3 @@
+ -Isystem/core/libcutils/include
+ -Iexternal/libcxx/include -Iexternal/libcxxabi/include
+ 

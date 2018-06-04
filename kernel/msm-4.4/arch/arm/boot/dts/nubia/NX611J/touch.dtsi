@@ -1,0 +1,30 @@
+/*
+  *    add nubia touch
+  */
+ 
+&i2c_4 {
+	status = "okay";
+
+	himax-ts@48 {
+		status = "okay";
+		compatible = "himax,hxcommon";
+		reg = <0x48>;
+		interrupt-parent = <&tlmm>;
+		interrupts = <67 0x02>;
+		himax,panel-coords = <0 1080 0 2160>;
+		himax,display-coords = <0 1080 0 2160>;
+		himax,rst-gpio = <&tlmm 66 0x00>;
+		himax,irq-gpio = <&tlmm 67 0x00>;
+		report_type = <1>;
+	};
+
+	/* Novatek device tree node */
+	novatek@62 {
+		compatible = "novatek,NVT-ts";
+		reg = <0x62>;
+		status = "ok";
+		novatek,irq-gpio = <&tlmm 67 0x2001>;
+	};
+};
+
+

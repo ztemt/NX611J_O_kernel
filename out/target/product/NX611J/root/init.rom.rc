@@ -1,0 +1,35 @@
+
+#Nubia add for freezer
+service freezerd /system/bin/freezerd
+    class main
+    user root
+    group root
+    
+    start freezerd
+#Nubia add end
+
+
+#Nubia add start, for fileobserverd
+service fileobserverd /system/bin/fileobserverd
+    class main
+    socket fileobserverd stream 0666 system system
+#Nubia add end
+
+# nubia add for databackup
+service appdatabackup /system/bin/appdatabackup
+    class main
+    socket appdatabackup stream 600 system system
+# nubia databakcup end
+
+#nubia add for bootsound
+on property:sys.zte.boot.sound.completed=1
+    start audio-hal-2-0
+    start audioserver
+
+on property:sys.nubia.power.sound=reset
+   rm /persist/bootsoundproperty/persistsyspowersound
+
+chmod 0664 /system/media/audio/ui/bootup.wav
+chmod 0755 /system/bin/bootsound.sh
+#nubia add end
+

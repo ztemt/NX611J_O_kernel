@@ -1,0 +1,82 @@
+/*
+ * dts file for samsung nfc chip
+ */
+&i2c_6 {
+	sec-nfc@27{
+		compatible = "samsung,sec-nfc";
+		reg = <0x27>;
+		sec-nfc,irq-gpio = <&tlmm 30 0x00>;/* 30 43*/
+		sec-nfc,ven-gpio = <&tlmm 29 0x00>;
+		sec-nfc,firm-gpio= <&tlmm 31 0x00>;
+		sec-nfc,clk-gpio = <&pm660_gpios 4 0x00>;
+		interrupt-parent = <&tlmm>;
+		interrupts = <30 0>;/* 30 43*/
+		qcom,clk-src = "BBCLK3";
+		interrupt-names = "nfc_irq";
+		pinctrl-names = "nfc_actived","nfc_suspend";
+		pinctrl-0 = <&nfc_int_active &nfc_enable_active>;
+		pinctrl-1 = <&nfc_int_suspend &nfc_enable_suspend>;
+		clocks = <&clock_rpmcc RPM_LN_BB_CLK3>;
+		clock-names = "ref_clk";
+	};
+};
+
+&soc {
+	tlmm: pinctrl@03000000 {
+
+		nfc {
+			nfc_int_active: nfc_int_active {
+				mux {
+					pins = "gpio30", "gpio43";
+					function = "gpio";
+				};
+
+				config {
+					pins = "gpio30", "gpio43";
+					drive-strength = <2>;
+					bias-pull-down;
+					input-enable;
+				};
+			};
+
+			nfc_int_suspend: nfc_int_suspend {
+				mux {
+					pins = "gpio30", "gpio43";
+					function = "gpio";
+				};
+
+				config {
+					pins = "gpio30", "gpio43";
+					drive-strength = <2>;
+					bias-pull-down;
+				};
+			};
+
+			nfc_enable_active: nfc_enable_active {
+				mux {
+					pins = "gpio29" , "gpio31";
+					function = "gpio";
+				};
+
+				config {
+					pins = "gpio29",  "gpio31";
+					drive-strength = <2>;
+					bias-pull-up;
+				};
+			};
+
+			nfc_enable_suspend: nfc_enable_suspend {
+				mux {
+					pins = "gpio29" , "gpio31";
+					function = "gpio";
+				};
+
+				config {
+					pins = "gpio29" , "gpio31";
+					drive-strength = <2>;
+					bias-disable;
+				};
+			};
+		};
+	};
+};

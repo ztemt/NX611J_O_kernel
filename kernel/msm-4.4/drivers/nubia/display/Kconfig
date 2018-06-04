@@ -1,0 +1,50 @@
+#
+# nubia disp lcd extern interface module configuration
+#
+config NUBIA_DISP_LCD_FEATURE
+       bool "nubia lcd feature"
+       default n
+       ---help---
+       Enable nubia lcd feature.
+
+config NUBIA_DISP_LCD_VDDIO_GPIO
+       bool "nubia lcd vddio control by gpio"
+       default n
+       ---help---
+       Enable nubia lcd vddio control by gpio.
+
+config NUBIA_DISP_KEEP_POWER_ON
+       bool "nubia lcd keep power on"
+       default n
+       ---help---
+       Enable nubia lcd keep power on.
+
+config NUBIA_DISP_JDI_HX83112A
+       bool "nubia lcd is jdi hx83112a"
+       default n
+       ---help---
+       Enable nubia is jdi hx83112a.
+
+config NUBIA_DISP_LEAD_HX83112A
+       bool "nubia lcd is lead hx83112a"
+       default n
+       ---help---
+       Enable nubia is lead hx83112a.
+
+config NUBIA_DISP_LCD_PANEL_ID
+       bool "nubia lcd panel id"
+       default n
+       ---help---
+       Enable nubia lcd panel id.
+
+config NUBIA_DISP_LCD_PREFERENCE
+       bool "nubia lcd preference"
+       default n
+       ---help---
+       Enable nubia lcd preference.
+
+config NUBIA_LCD_BACKLIGHT_CURVE
+       bool "nubia lcd bl curve"
+       default n
+       ---help---
+       Enable nubia lcd bl curve.

@@ -1,0 +1,54 @@
+/*
+  *    add nubia display
+  */
+
+#include "../nubia_panel/nubia_panel.dtsi"
+
+&mdss_dsi {
+	hw-config = "single_dsi";
+};
+
+&mdss_dsi0 {
+	qcom,dsi-pref-prim-pan = <&dsi_jdi_hx83112a_1080_2160_5p65_video>;
+};
+
+&mdss_dsi1 {
+	status = "disabled";
+};
+
+&pm660l_wled {
+	qcom,fs-curr-ua = <20000>;
+	qcom,led-strings-list = [00 01];
+	qcom,en-cabc;
+};
+
+
+&soc {
+	nubia_dsi_panel_pwr_supply: nubia_dsi_panel_pwr_supply {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			qcom,panel-supply-entry@0 {
+					reg = <0>;
+					qcom,supply-name = "lab";
+					qcom,supply-min-voltage = <5500000>;
+					qcom,supply-max-voltage = <5500000>;
+					qcom,supply-enable-load = <100000>;
+					qcom,supply-disable-load = <100>;
+					qcom,supply-post-on-sleep = <5>;
+					qcom,supply-pre-off-sleep = <5>;
+			};
+
+			qcom,panel-supply-entry@1 {
+					reg = <1>;
+					qcom,supply-name = "ibb";
+					qcom,supply-min-voltage = <5500000>;
+					qcom,supply-max-voltage = <5500000>;
+					qcom,supply-enable-load = <100000>;
+					qcom,supply-disable-load = <100>;
+					qcom,supply-post-on-sleep = <10>;
+					qcom,supply-pre-off-sleep = <10>;
+			};
+	};
+};
+
+  

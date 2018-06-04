@@ -1,0 +1,219 @@
+ 0x000000000000000e (SONAME)             Library soname: [libcutils.so]
+  
+Symbol   contains 215 entries:
+Num:   Type Bind Vis Ndx Name
+0:   NOTYPE LOCAL DEFAULT UND
+1:   NOTYPE WEAK DEFAULT UND __gmon_start__
+2:   NOTYPE WEAK DEFAULT UND _ITM_deregisterTMCloneTab
+3:   NOTYPE WEAK DEFAULT UND _ITM_registerTMCloneTable
+4:   FUNC WEAK DEFAULT UND __cxa_finalize@GLIBC_2.2.5 (2)
+5:   NOTYPE WEAK DEFAULT UND _Jv_RegisterClasses
+6:   FUNC GLOBAL DEFAULT UND __ctype_b_loc@GLIBC_2.3 (3)
+7:   FUNC GLOBAL DEFAULT UND __stack_chk_fail@GLIBC_2.4 (4)
+8:   FUNC GLOBAL DEFAULT UND calloc@GLIBC_2.2.5 (2)
+9:   FUNC GLOBAL DEFAULT UND ftruncate@GLIBC_2.2.5 (2)
+10:   FUNC GLOBAL DEFAULT UND getpid@GLIBC_2.2.5 (2)
+11:   FUNC GLOBAL DEFAULT UND free@GLIBC_2.2.5 (2)
+12:   FUNC GLOBAL DEFAULT UND strchr@GLIBC_2.2.5 (2)
+13:   FUNC GLOBAL DEFAULT UND strtof@GLIBC_2.2.5 (2)
+14:   FUNC GLOBAL DEFAULT UND strcmp@GLIBC_2.2.5 (2)
+15:   FUNC GLOBAL DEFAULT UND __android_log_print
+16:   FUNC GLOBAL DEFAULT UND __errno_location@GLIBC_2.2.5 (9)
+17:   FUNC GLOBAL DEFAULT UND __fxstat@GLIBC_2.2.5 (2)
+18:   FUNC GLOBAL DEFAULT UND asprintf@GLIBC_2.2.5 (2)
+19:   FUNC GLOBAL DEFAULT UND close@GLIBC_2.2.5 (9)
+20:   FUNC GLOBAL DEFAULT UND memset@GLIBC_2.2.5 (2)
+21:   FUNC GLOBAL DEFAULT UND open@GLIBC_2.2.5 (9)
+22:   FUNC GLOBAL DEFAULT UND read@GLIBC_2.2.5 (9)
+23:   FUNC GLOBAL DEFAULT UND strcpy@GLIBC_2.2.5 (2)
+24:   FUNC GLOBAL DEFAULT UND strlen@GLIBC_2.2.5 (2)
+25:   FUNC GLOBAL DEFAULT UND strncmp@GLIBC_2.2.5 (2)
+26:   FUNC GLOBAL DEFAULT UND strnlen@GLIBC_2.2.5 (2)
+27:   FUNC GLOBAL DEFAULT UND __fprintf_chk@GLIBC_2.3.4 (5)
+28:   FUNC GLOBAL DEFAULT UND __printf_chk@GLIBC_2.3.4 (5)
+29:   FUNC GLOBAL DEFAULT UND __strdup@GLIBC_2.2.5 (2)
+30:   FUNC GLOBAL DEFAULT UND bsearch@GLIBC_2.2.5 (2)
+31:   FUNC GLOBAL DEFAULT UND exit@GLIBC_2.2.5 (2)
+32:   FUNC GLOBAL DEFAULT UND fclose@GLIBC_2.2.5 (2)
+33:   FUNC GLOBAL DEFAULT UND fgets@GLIBC_2.2.5 (2)
+34:   FUNC GLOBAL DEFAULT UND fopen@GLIBC_2.2.5 (2)
+35:   FUNC GLOBAL DEFAULT UND qsort@GLIBC_2.2.5 (2)
+36:   FUNC GLOBAL DEFAULT UND realloc@GLIBC_2.2.5 (2)
+37:   OBJECT GLOBAL DEFAULT UND stderr@GLIBC_2.2.5 (2)
+38:   FUNC GLOBAL DEFAULT UND strerror@GLIBC_2.2.5 (2)
+39:   FUNC GLOBAL DEFAULT UND strtok@GLIBC_2.2.5 (2)
+40:   FUNC GLOBAL DEFAULT UND strtol@GLIBC_2.2.5 (2)
+41:   FUNC GLOBAL DEFAULT UND strtoll@GLIBC_2.2.5 (2)
+42:   OBJECT GLOBAL DEFAULT UND in6addr_any@GLIBC_2.2.5 (2)
+43:   FUNC GLOBAL DEFAULT UND listen@GLIBC_2.2.5 (2)
+44:   FUNC GLOBAL DEFAULT UND bind@GLIBC_2.2.5 (2)
+45:   FUNC GLOBAL DEFAULT UND __strcat_chk@GLIBC_2.3.4 (5)
+46:   FUNC GLOBAL DEFAULT UND setsockopt@GLIBC_2.2.5 (2)
+47:   FUNC GLOBAL DEFAULT UND socket@GLIBC_2.2.5 (2)
+48:   FUNC GLOBAL DEFAULT UND write@GLIBC_2.2.5 (9)
+49:   FUNC GLOBAL DEFAULT UND malloc@GLIBC_2.2.5 (2)
+50:   FUNC GLOBAL DEFAULT UND pthread_mutex_destroy@GLIBC_2.2.5 (9)
+51:   FUNC GLOBAL DEFAULT UND pthread_mutex_init@GLIBC_2.2.5 (9)
+52:   FUNC GLOBAL DEFAULT UND pthread_mutex_lock@GLIBC_2.2.5 (9)
+53:   FUNC GLOBAL DEFAULT UND pthread_mutex_unlock@GLIBC_2.2.5 (9)
+54:   FUNC GLOBAL DEFAULT UND openat@GLIBC_2.4 (4)
+55:   FUNC GLOBAL DEFAULT UND mkstemp@GLIBC_2.2.5 (2)
+56:   FUNC GLOBAL DEFAULT UND lseek@GLIBC_2.2.5 (9)
+57:   FUNC GLOBAL DEFAULT UND mkdir@GLIBC_2.2.5 (2)
+58:   FUNC GLOBAL DEFAULT UND dup@GLIBC_2.2.5 (2)
+59:   FUNC GLOBAL DEFAULT UND sscanf@GLIBC_2.2.5 (2)
+60:   FUNC GLOBAL DEFAULT UND memcpy@GLIBC_2.14 (6)
+61:   FUNC GLOBAL DEFAULT UND unlink@GLIBC_2.2.5 (2)
+62:   FUNC GLOBAL DEFAULT UND mkdirat@GLIBC_2.4 (4)
+63:   FUNC GLOBAL DEFAULT UND rename@GLIBC_2.2.5 (2)
+64:   FUNC GLOBAL DEFAULT UND chown@GLIBC_2.2.5 (2)
+65:   FUNC GLOBAL DEFAULT UND memmove@GLIBC_2.2.5 (2)
+66:   FUNC GLOBAL DEFAULT UND chmod@GLIBC_2.2.5 (2)
+67:   FUNC GLOBAL DEFAULT UND __snprintf_chk@GLIBC_2.3.4 (5)
+68:   FUNC GLOBAL DEFAULT UND getsockname@GLIBC_2.2.5 (2)
+69:   FUNC GLOBAL DEFAULT UND writev@GLIBC_2.2.5 (2)
+70:   FUNC GLOBAL DEFAULT UND __strndup@GLIBC_2.2.5 (2)
+71:   FUNC GLOBAL DEFAULT UND select@GLIBC_2.2.5 (2)
+72:   FUNC GLOBAL DEFAULT UND pthread_getspecific@GLIBC_2.2.5 (9)
+73:   FUNC GLOBAL DEFAULT UND pthread_key_create@GLIBC_2.2.5 (9)
+74:   FUNC GLOBAL DEFAULT UND getaddrinfo@GLIBC_2.2.5 (2)
+75:   FUNC GLOBAL DEFAULT UND pthread_setspecific@GLIBC_2.2.5 (9)
+76:   FUNC GLOBAL DEFAULT UND getsockopt@GLIBC_2.2.5 (2)
+77:   FUNC GLOBAL DEFAULT UND syscall@GLIBC_2.2.5 (2)
+78:   FUNC GLOBAL DEFAULT UND connect@GLIBC_2.2.5 (9)
+79:   FUNC GLOBAL DEFAULT UND fcntl@GLIBC_2.2.5 (9)
+80:   FUNC GLOBAL DEFAULT UND getenv@GLIBC_2.2.5 (2)
+81:   FUNC GLOBAL DEFAULT UND isalnum@GLIBC_2.2.5 (2)
+82:   FUNC GLOBAL DEFAULT UND freeaddrinfo@GLIBC_2.2.5 (2)
+83:   FUNC GLOBAL DEFAULT UND readlink@GLIBC_2.2.5 (2)
+84:   FUNC GLOBAL DEFAULT UND __fxstatat@GLIBC_2.4 (4)
+85:   FUNC GLOBAL DEFAULT UND __lxstat@GLIBC_2.2.5 (2)
+86:   FUNC GLOBAL DEFAULT UND __fdelt_chk@GLIBC_2.15 (7)
+87:   FUNC GLOBAL DEFAULT UND __asprintf_chk@GLIBC_2.8 (8)
+88:   FUNC GLOBAL DEFAULT 11 native_handle_init
+89:   FUNC GLOBAL DEFAULT 11 str_parms_add_str
+90:   FUNC GLOBAL DEFAULT 11 load_canned_fs_config
+91:   FUNC GLOBAL DEFAULT 11 str_parms_create
+92:   FUNC GLOBAL DEFAULT 11 fs_config_generate
+93:   FUNC GLOBAL DEFAULT 11 hashmapGet
+94:   FUNC GLOBAL DEFAULT 11 multiuser_get_ext_gid
+95:   FUNC GLOBAL DEFAULT 11 config_free
+96:   FUNC GLOBAL DEFAULT 11 native_handle_clone
+97:   FUNC GLOBAL DEFAULT 11 strlen8to16
+98:   FUNC GLOBAL DEFAULT 11 config_find
+99:   FUNC GLOBAL DEFAULT 11 hashmapCurrentCapacity
+100:   FUNC GLOBAL DEFAULT 11 socket_peer_is_trusted
+101:   FUNC GLOBAL DEFAULT 11 native_handle_create
+102:   FUNC GLOBAL DEFAULT 11 socket_local_client_conne
+103:   FUNC GLOBAL DEFAULT 11 hashmapIntEquals
+104:   FUNC GLOBAL DEFAULT 11 android_set_ioprio
+105:   FUNC GLOBAL DEFAULT 11 str_parms_add_float
+106:   FUNC GLOBAL DEFAULT 11 ashmem_pin_region
+107:   FUNC GLOBAL DEFAULT 11 fs_config
+108:   FUNC GLOBAL DEFAULT 11 record_stream_free
+109:   FUNC GLOBAL DEFAULT 11 socket_local_server
+110:   FUNC GLOBAL DEFAULT 11 is_frozen
+111:   FUNC GLOBAL DEFAULT 11 multiuser_get_cache_gid
+112:   FUNC GLOBAL DEFAULT 11 socket_set_receive_timeou
+113:   FUNC GLOBAL DEFAULT 11 hashmapSize
+114:   FUNC GLOBAL DEFAULT 11 multiuser_get_app_id
+115:   FUNC GLOBAL DEFAULT 11 native_handle_delete
+116:   FUNC GLOBAL DEFAULT 11 socket_get_local_port
+117:   FUNC GLOBAL DEFAULT 11 hashmapContainsKey
+118:   FUNC GLOBAL DEFAULT 11 strcpy8to16
+119:   FUNC GLOBAL DEFAULT 11 strcpylen8to16
+120:   FUNC GLOBAL DEFAULT 11 str_parms_del
+121:   OBJECT GLOBAL DEFAULT 23 __for_testing_only__andro
+122:   FUNC GLOBAL DEFAULT 11 strlcpy
+123:   FUNC GLOBAL DEFAULT 11 canned_fs_config
+124:   FUNC GLOBAL DEFAULT 11 multiuser_get_ext_cache_g
+125:   FUNC GLOBAL DEFAULT 11 ashmem_set_prot_region
+126:   NOTYPE GLOBAL DEFAULT ABS _edata
+127:   FUNC GLOBAL DEFAULT 11 set_threads_freeze_state
+128:   FUNC GLOBAL DEFAULT 11 ashmem_unpin_region
+129:   FUNC GLOBAL DEFAULT 11 hashmapCountCollisions
+130:   FUNC GLOBAL DEFAULT 11 strdup8to16
+131:   FUNC GLOBAL DEFAULT 11 load_file
+132:   OBJECT GLOBAL DEFAULT 23 __for_testing_only__fs_co
+133:   FUNC GLOBAL DEFAULT 11 hashmapForEach
+134:   FUNC GLOBAL DEFAULT 11 hashmapLock
+135:   FUNC GLOBAL DEFAULT 11 str_parms_create_str
+136:   FUNC GLOBAL DEFAULT 11 socket_local_client
+137:   FUNC GLOBAL DEFAULT 11 record_stream_get_next
+138:   FUNC GLOBAL DEFAULT 11 thread_store_set
+139:   OBJECT GLOBAL DEFAULT 23 atrace_is_ready
+140:   FUNC GLOBAL DEFAULT 11 fs_mkdirs
+141:   FUNC GLOBAL DEFAULT 9 _init
+142:   FUNC GLOBAL DEFAULT 12 _fini
+143:   FUNC GLOBAL DEFAULT 11 atrace_setup
+144:   FUNC GLOBAL DEFAULT 11 hashmapMemoize
+145:   FUNC GLOBAL DEFAULT 11 set_sched_policy
+146:   FUNC GLOBAL DEFAULT 11 multiuser_get_uid
+147:   FUNC GLOBAL DEFAULT 11 fs_write_atomic_int
+148:   FUNC GLOBAL DEFAULT 11 str_parms_dump
+149:   FUNC GLOBAL DEFAULT 11 atrace_end_body
+150:   FUNC GLOBAL DEFAULT 11 hashmapRemove
+151:   FUNC GLOBAL DEFAULT 11 hashmapUnlock
+152:   FUNC GLOBAL DEFAULT 11 str_parms_get_int
+153:   FUNC GLOBAL DEFAULT 11 android_get_control_file
+154:   FUNC GLOBAL DEFAULT 11 ashmem_get_size_region
+155:   NOTYPE GLOBAL DEFAULT ABS __bss_start
+156:   FUNC GLOBAL DEFAULT 11 hashmapIntHash
+157:   FUNC GLOBAL DEFAULT 11 fs_read_atomic_int
+158:   FUNC GLOBAL DEFAULT 11 dlmalloc_trim
+159:   FUNC GLOBAL DEFAULT 11 hashmapPut
+160:   FUNC GLOBAL DEFAULT 11 strnlen16to8
+161:   FUNC GLOBAL DEFAULT 11 atrace_set_tracing_enable
+162:   NOTYPE GLOBAL DEFAULT ABS _end
+163:   FUNC GLOBAL DEFAULT 11 fs_prepare_file_strict
+164:   FUNC GLOBAL DEFAULT 11 socket_network_client_tim
+165:   FUNC GLOBAL DEFAULT 11 socket_close
+166:   FUNC GLOBAL DEFAULT 11 config_load_file
+167:   FUNC GLOBAL DEFAULT 11 set_freeze_state
+168:   FUNC GLOBAL DEFAULT 11 socket_make_sockaddr_un
+169:   OBJECT GLOBAL DEFAULT 25 atrace_enabled_tags
+170:   FUNC GLOBAL DEFAULT 11 str_parms_to_str
+171:   FUNC GLOBAL DEFAULT 11 socket_send_buffers
+172:   FUNC GLOBAL DEFAULT 11 fs_prepare_dir
+173:   FUNC GLOBAL DEFAULT 11 hashmapHash
+174:   FUNC GLOBAL DEFAULT 11 atrace_int_body
+175:   FUNC GLOBAL DEFAULT 11 thread_store_get
+176:   FUNC GLOBAL DEFAULT 11 multiuser_get_shared_app_
+177:   FUNC GLOBAL DEFAULT 11 socket_network_client
+178:   FUNC GLOBAL DEFAULT 11 android_get_control_socke
+179:   FUNC GLOBAL DEFAULT 11 strncpy16to8
+180:   FUNC GLOBAL DEFAULT 11 atrace_int64_body
+181:   FUNC GLOBAL DEFAULT 11 get_sched_policy
+182:   FUNC GLOBAL DEFAULT 11 socket_inaddr_any_server
+183:   FUNC GLOBAL DEFAULT 11 str_parms_add_int
+184:   FUNC GLOBAL DEFAULT 11 str_parms_has_key
+185:   FUNC GLOBAL DEFAULT 11 hashmapCreate
+186:   FUNC GLOBAL DEFAULT 11 getFreezeTidsInPid
+187:   FUNC GLOBAL DEFAULT 11 dlmalloc_inspect_all
+188:   FUNC GLOBAL DEFAULT 11 hashmapFree
+189:   FUNC GLOBAL DEFAULT 11 native_handle_close
+190:   FUNC GLOBAL DEFAULT 11 str_parms_get_str
+191:   FUNC GLOBAL DEFAULT 11 str_parms_destroy
+192:   FUNC GLOBAL DEFAULT 11 config_set
+193:   FUNC GLOBAL DEFAULT 11 strndup16to8
+194:   FUNC GLOBAL DEFAULT 11 multiuser_get_shared_gid
+195:   FUNC GLOBAL DEFAULT 11 fs_prepare_dir_strict
+196:   FUNC GLOBAL DEFAULT 11 atrace_begin_body
+197:   FUNC GLOBAL DEFAULT 11 ashmem_create_region
+198:   FUNC GLOBAL DEFAULT 11 multiuser_get_user_id
+199:   FUNC GLOBAL DEFAULT 11 config_str
+200:   FUNC GLOBAL DEFAULT 11 android_get_ioprio
+201:   FUNC GLOBAL DEFAULT 11 atrace_async_end_body
+202:   FUNC GLOBAL DEFAULT 11 config_bool
+203:   FUNC GLOBAL DEFAULT 11 config_load
+204:   FUNC GLOBAL DEFAULT 11 config_node
+205:   FUNC GLOBAL DEFAULT 11 get_sched_policy_name
+206:   FUNC GLOBAL DEFAULT 11 atrace_set_debuggable
+207:   OBJECT GLOBAL DEFAULT 23 __for_testing_only__andro
+208:   FUNC GLOBAL DEFAULT 11 gettid
+209:   FUNC GLOBAL DEFAULT 11 record_stream_new
+210:   FUNC GLOBAL DEFAULT 11 atrace_async_begin_body
+211:   OBJECT GLOBAL DEFAULT 23 atrace_marker_fd
+212:   FUNC GLOBAL DEFAULT 11 str_parms_get_float
+213:   FUNC GLOBAL DEFAULT 11 atrace_update_tags
+214:   FUNC GLOBAL DEFAULT 11 socket_local_server_bind
